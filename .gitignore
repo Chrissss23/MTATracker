@@ -4,6 +4,15 @@ mta_env/
 # Logs and data files
 logs/
 
+# Generated MTA exports (in case older cells write to project root)
+mta_entities_*.csv
+mta_feed_*.json
+mta_metadata_*.txt
+app_data*.json
+
+# Consolidated exports folder
+exports/
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb_checkpoints/
